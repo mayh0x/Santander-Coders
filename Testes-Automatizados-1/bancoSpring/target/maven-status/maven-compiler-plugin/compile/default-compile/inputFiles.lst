@@ -1,0 +1,17 @@
+C:\Users\maray\OneDrive\Documentos\Santander\Módulo 4 - Testes Automatizados 1\bancoSpring\src\main\java\tech\ada\banco\model\Conta.java
+C:\Users\maray\OneDrive\Documentos\Santander\Módulo 4 - Testes Automatizados 1\bancoSpring\src\main\java\tech\ada\banco\services\Pix.java
+C:\Users\maray\OneDrive\Documentos\Santander\Módulo 4 - Testes Automatizados 1\bancoSpring\src\main\java\tech\ada\banco\exceptions\ValorInvalidoException.java
+C:\Users\maray\OneDrive\Documentos\Santander\Módulo 4 - Testes Automatizados 1\bancoSpring\src\main\java\tech\ada\banco\controller\ContaController.java
+C:\Users\maray\OneDrive\Documentos\Santander\Módulo 4 - Testes Automatizados 1\bancoSpring\src\main\java\tech\ada\banco\model\Pessoa.java
+C:\Users\maray\OneDrive\Documentos\Santander\Módulo 4 - Testes Automatizados 1\bancoSpring\src\main\java\tech\ada\banco\controller\SaqueController.java
+C:\Users\maray\OneDrive\Documentos\Santander\Módulo 4 - Testes Automatizados 1\bancoSpring\src\main\java\tech\ada\banco\controller\PixController.java
+C:\Users\maray\OneDrive\Documentos\Santander\Módulo 4 - Testes Automatizados 1\bancoSpring\src\main\java\tech\ada\banco\repository\PessoaRepository.java
+C:\Users\maray\OneDrive\Documentos\Santander\Módulo 4 - Testes Automatizados 1\bancoSpring\src\main\java\tech\ada\banco\exceptions\ResourceNotFoundException.java
+C:\Users\maray\OneDrive\Documentos\Santander\Módulo 4 - Testes Automatizados 1\bancoSpring\src\main\java\tech\ada\banco\repository\ContaRepository.java
+C:\Users\maray\OneDrive\Documentos\Santander\Módulo 4 - Testes Automatizados 1\bancoSpring\src\main\java\tech\ada\banco\model\ModalidadeConta.java
+C:\Users\maray\OneDrive\Documentos\Santander\Módulo 4 - Testes Automatizados 1\bancoSpring\src\main\java\tech\ada\banco\services\Saque.java
+C:\Users\maray\OneDrive\Documentos\Santander\Módulo 4 - Testes Automatizados 1\bancoSpring\src\main\java\tech\ada\banco\exceptions\SaldoInsuficienteException.java
+C:\Users\maray\OneDrive\Documentos\Santander\Módulo 4 - Testes Automatizados 1\bancoSpring\src\main\java\tech\ada\banco\BancoSpringApplication.java
+C:\Users\maray\OneDrive\Documentos\Santander\Módulo 4 - Testes Automatizados 1\bancoSpring\src\main\java\tech\ada\banco\controller\PessoaController.java
+C:\Users\maray\OneDrive\Documentos\Santander\Módulo 4 - Testes Automatizados 1\bancoSpring\src\main\java\tech\ada\banco\controller\DepositoController.java
+C:\Users\maray\OneDrive\Documentos\Santander\Módulo 4 - Testes Automatizados 1\bancoSpring\src\main\java\tech\ada\banco\services\Deposito.java

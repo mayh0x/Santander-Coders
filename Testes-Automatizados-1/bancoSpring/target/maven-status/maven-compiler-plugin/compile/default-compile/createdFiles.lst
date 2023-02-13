@@ -1,0 +1,17 @@
+tech\ada\banco\BancoSpringApplication.class
+tech\ada\banco\controller\PixController.class
+tech\ada\banco\services\Pix.class
+tech\ada\banco\exceptions\ValorInvalidoException.class
+tech\ada\banco\controller\PessoaController.class
+tech\ada\banco\exceptions\SaldoInsuficienteException.class
+tech\ada\banco\repository\PessoaRepository.class
+tech\ada\banco\services\Deposito.class
+tech\ada\banco\exceptions\ResourceNotFoundException.class
+tech\ada\banco\controller\SaqueController.class
+tech\ada\banco\controller\DepositoController.class
+tech\ada\banco\model\ModalidadeConta.class
+tech\ada\banco\model\Pessoa.class
+tech\ada\banco\services\Saque.class
+tech\ada\banco\model\Conta.class
+tech\ada\banco\repository\ContaRepository.class
+tech\ada\banco\controller\ContaController.class
