@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    p:first-child {
+      color: #1a73e8;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    p ~ input::placeholder {
+      color: #a5a5a5;
+    }
+
+    p[lang|="pt"] {
+      background-color: #a5a5a5;
+    }
+
+    .opcao1:checked, .opcao2:checked {
+      height: 20px;
+      width: 20px;
+    }
+
+    p::first-letter {
+      font-size: 50px;
+    }
+
+    .email:disabled {
+      background-color: blue;
+    }
+
+    p::before {
+      content: "Por favor, "
+    }
+
+    p::after {
+      content: ": "
+    }
+
+    li::marker {
+      color: red;
+    }
+
+    p:lang(en) {
+      background: yellow;
+    }
+
+</style>
+<body>
+    <div class="login">
+        <p lang="en">Realize o seu login</p>
+        <input type="email" class="email" name="email" placeholder="email" disabled="disabled">
+        <input type="password" class="senha" name="senha" placeholder="senha">
+    </div>
+    <div class="checar-genero">
+        <p lang="pt-br">Selecione o seu genero</p>
+        <input type="radio" class="opcao1" value="mulher" name="genero"> Mulher <br/>
+        <input type="radio" class="opcao2" value="homem" name="genero"> Homem <br/>
+        <input type="radio" class="opcao3" value="sem resposta" name="genero" checked="checked"> Prefiro não responder <br/>
+    </div>
+    <div>
+        <ul>
+            <li> Item 1 </li>
+            <li> Item 2 </li>
+            <li> Item 3 </li>
+        </ul>
+    </div>
+</body>
+
+</html>

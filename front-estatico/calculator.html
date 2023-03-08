@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+</head>
+<style>
+  body {
+    background: #ffffff;
+  }
+
+  .calc {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 1px;
+    background-color: #212121;
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    box-shadow: 0 0 0.5cm rgb(0,0,0,0.6);
+    border-radius: 2%;
+  }
+
+  .input-number {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+  }
+
+  button {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    font-size: 17.5px;
+    cursor: pointer;
+  }
+
+  .botao-calc {
+    background-color: #303332;
+    font-weight: bold;
+  }
+
+  .botao-num {
+    background-color: #3e3e3e;
+  }
+
+  .botao-igual {
+    background-color: #4e4efc;
+    font-weight: bold;
+  }
+
+  .botao-calc:hover {
+    background-color: #272828;
+  }
+
+  .botao-num:hover {
+    background-color: #2d2d2d;
+  }
+
+  .botao-igual:hover {
+    background-color: #3f3fc6;
+  }
+
+  @media (min-width: 460px) {
+    .calc {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(7, 1fr);
+    }
+  }
+
+  @media (min-width: 768px) {
+    .calc {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(7, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .calc {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(7, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+  }
+
+</style>
+<body>
+  <div class="calc">
+      <p class="input-number">0</p>
+
+      <button class="botao-calc">%</button>
+      <button class="botao-calc">CE</button>
+      <button class="botao-calc">C</button>
+      <button class="botao-calc">DEL</button>
+
+      <button class="botao-calc">1/x</button>
+      <button class="botao-calc">x²</button>
+      <button class="botao-calc">√x</button>
+      <button class="botao-calc">/</button>
+
+      <button class="botao-num">7</button>
+      <button class="botao-num">8</button>
+      <button class="botao-num">9</button>
+      <button class="botao-calc">X</button>
+
+      <button class="botao-num">4</button>
+      <button class="botao-num">5</button>
+      <button class="botao-num">6</button>
+      <button class="botao-calc">-</button>
+
+      <button class="botao-num">1</button>
+      <button class="botao-num">2</button>
+      <button class="botao-num">3</button>
+      <button class="botao-calc">+</button>
+
+      <button class="botao-num">+/-</button>
+      <button class="botao-num">0</button>
+      <button class="botao-num">,</button>
+      <button class="botao-igual">=</button>
+  </div>
+</body>
+</html>

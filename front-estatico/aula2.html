@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<style>
+  .checklist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .tabela-div {
+    border: 1px solid black;
+    border-style: dashed solid;
+    position: relative;
+    margin-top: 30px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+
+  .tabela-div h3 {
+    position: absolute;
+    top: -30px;
+    background-color: white;
+    padding: 0 5px;
+    margin-left: 20px;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #C5C5C5;
+  }
+
+  .lines {
+    background-color: white;
+  }
+</style>
+<body>
+  <div>
+    <h3> Lista de compras não-ordenada </h3>
+    <ul>
+      <li>Banana</li>
+      <li>Laranja</li>
+      <li>Maçã</li>
+      <li>Goiaba</li>
+      <li>Maracujá</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3> Lista de compras ordenada </h3>
+    <ol>
+      <li>Banana</li>
+      <li>Laranja</li>
+      <li>Maçã</li>
+      <li>Goiaba</li>
+      <li>Maracujá</li>
+    </ol>
+  </div>
+
+  <div>
+    <h3> Checklist de afazeres </h3>
+    <ul class="checklist">
+      <li>
+        <input type="checkbox" id="item1">
+        <label for="item1">Varrer a casa</label>
+      </li>
+      <li>
+        <input type="checkbox" id="item2">
+        <label for="item2">Passar o pano</label>
+      </li>
+      <li>
+        <input type="checkbox" id="item3">
+        <label for="item3">Passear com o cachorro</label>
+      </li>
+      <li>
+        <input type="checkbox" id="item4">
+        <label for="item4">Fazer o almoço</label>
+      </li>
+    </ul>
+  </div>
+
+  <div class="tabela-div">
+    <h3> Tabela simples </h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>País</th>
+          <th colspan="2">Notas</th>
+        </tr>
+        <tr>
+          <th class="lines" colspan="3">-----------------------------------------</th>
+          <th>Português</th>
+          <th>Matemática</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pedro</td>
+          <td>30 anos</td>
+          <td>Brasil</td>
+          <td>7.9</td>
+          <td>9.4</td>
+        </tr>
+        <tr>
+          <td>Lins</td>
+          <td>21 anos</td>
+          <td>Brasil</td>
+          <td>8.9</td>
+          <td>10.0</td>
+        </tr>
+        <tr>
+          <td>Patrick</td>
+          <td>18 anos</td>
+          <td>Brasil</td>
+          <td>8.7</td>
+          <td>7.1</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+</head>
+<style>
+  .logo, .input-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logo {
+    margin-top: 230px;
+    margin-bottom: 20px;
+    width: 300;
+    height: 300;
+  }
+
+  .lupa {
+    width: 20px;
+    height: 20px;
+  }
+
+  .input-container {
+    width: 500px;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 15px;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  input {
+    padding-left: 10px;
+    display: flex;
+    flex: 1;
+    border: none;
+  }
+
+  input:focus {
+    outline: none;
+  }
+</style>
+<body>
+  <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+      <form action="https://www.google.com/search" method="GET">
+          <div class="input-container">
+              <img class="lupa" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8W566Cqb90QgjSqmMJmXKq8RwwpgNQJWUwSWdW9tSxA&s" alt="Lupa"/>
+              <input type="text" name="q">
+          </div>
+      </form>
+</body>
+</html>
